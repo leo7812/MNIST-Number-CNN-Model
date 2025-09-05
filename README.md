@@ -5,7 +5,7 @@ This project contains a Python script that builds, trains, and evaluates a Convo
 
 <img width="420" height="453" alt="liveScreenShot" src="https://github.com/user-attachments/assets/4a2ed1ae-83e9-40f2-9362-7d553e854570" />
 
-<img width="403" height="436" alt="image" src="https://github.com/user-attachments/assets/116b62c3-ad35-4966-98a9-a8080b9aad3d" />
+<img width="303" height="336" alt="image" src="https://github.com/user-attachments/assets/116b62c3-ad35-4966-98a9-a8080b9aad3d" />
 
 
 How It Works
