@@ -1,6 +1,11 @@
 # MNIST Handwritten Digit Recognizer
 This project contains a Python script that builds, trains, and evaluates a Convolutional Neural Network (CNN) to recognize handwritten digits (0-9) using computer webcam. After training, the script can take a user-provided image of a digit and predict what number it is.
 
+<img width="691" height="547" alt="accuracyPlot" src="https://github.com/user-attachments/assets/c7b4bb09-96b2-44c8-a972-8308d08f9030" />
+
+<img width="403" height="436" alt="image" src="https://github.com/user-attachments/assets/116b62c3-ad35-4966-98a9-a8080b9aad3d" />
+
+
 How It Works
 The script performs the following steps:
 
