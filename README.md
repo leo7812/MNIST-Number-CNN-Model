@@ -24,25 +24,25 @@ Predicts Custom Image: It takes an image file named number.png, processes it to 
 Model Architecture
 The neural network is a sequential model with the following layers:
 
-Conv2D (32 filters, ReLU activation)
+Conv2D (32 filters, ReLU activation) # first round of examinations of pixels
 
-MaxPooling2D
+MaxPooling2D  # applies a 3x3 grid on image for broader examination
 
 Dropout (rate of 0.25 to prevent overfitting)
 
-Conv2D (64 filters, ReLU activation)
+Conv2D (64 filters, ReLU activation) # second round with more filters 
 
-MaxPooling2D
+MaxPooling2D  # again 3x3
 
 Dropout (rate of 0.25)
 
-Flatten
+Flatten # converts findings into list for final conclusion
 
-Dense (128 neurons, ReLU activation)
+Dense (128 neurons, ReLU activation) # first round of conclusion, example making sure 8 instead of 0 or vice versa
 
 Dropout (rate of 0.5)
 
-Dense (10 output neurons, Softmax activation for classification)
+Dense (10 output neurons, Softmax activation for classification) # final conclusion given by model 
 
 Training Results
 The model is trained for 2-3 epochs using the Adam optimizer and sparse_categorical_crossentropy as the loss function. It consistently achieves a high accuracy ( >98%) on the test dataset.
